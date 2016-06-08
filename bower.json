@@ -1,0 +1,29 @@
+{
+  "name": "marquee",
+  "description": "The deprecated marquee tag reimplemented for the modern web",
+  "main": "index.html",
+  "authors": [
+    "Pete Haughie pete@republicofpete.net"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "HTML",
+    "LESS",
+    "CSS",
+    "90s",
+    "Nostalgia"
+  ],
+  "homepage": "https://github.com/Flowdeeps/marquee",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "cssrefresh": "http://cssrefresh.frebsite.nl/js/cssrefresh.js",
+    "blankslate": "https://github.com/Flowdeeps/blankslate.git"
+  }
+}
