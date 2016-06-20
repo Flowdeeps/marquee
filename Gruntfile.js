@@ -25,7 +25,7 @@ module.exports = function ( grunt ) {
         files: {
           // compilation.css  :  source.less
           "assets/css/reset.css": "bower_components/blankslate/reset.less",
-          "assets/css/main.css": "assets/less/main.less"
+          "assets/css/marquee.css": "assets/less/main.less"
         }
       },
     },
@@ -47,7 +47,8 @@ module.exports = function ( grunt ) {
       },
       build: {
         files: {
-          'assets/js/init.min.js': [ 'assets/js/init.js' ]
+          'assets/js/init.min.js': 'assets/js/init.js',
+          'assets/js/marquee.min.js': 'assets/js/marquee.js'
         }
       }
     }
